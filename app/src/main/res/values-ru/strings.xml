@@ -1,0 +1,666 @@
+<resources>
+    <string name="app_name">neutriNote CE</string>
+    <string name="browser_widget_name">neutriNote Браузер</string>
+    <string name="add_note_widget_name">neutriNote: Новая заметка</string>
+    <string name="backup_service_name">neutriNote Сервис для резерва</string>
+
+    <string name="in_app_search">neutriNote &#128269;</string>
+
+    <string name="hello_world">Привет, мир!</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="intro_getting_started">Давайте начнем</string>
+    <string name="intro_getting_started_desc">Перед первым использованием найдите время и настройте локальный репозиторий для neutriNote.</string>
+
+    <string name="intro_local_repo">Локальное хранилище</string>
+    <string name="intro_local_repo_desc">Локальный репозиторий  -  это компонент для хранения ваших заметок на устройстве.  Следуйте инструкциям на следующем экране, чтобы назначить папку репозиторию.</string>
+
+    <string name="drawer_open">Открыть панель навигации</string>
+    <string name="drawer_close">Закрыть панель навигации</string>
+
+    <string name="drawer_header_default">neutriNote</string>
+
+    <string name="drawer_menu_custom_filters">Подбор фильтра</string>
+    <string name="drawer_menu_modified_after">Изменение когда...</string>
+    <string name="drawer_menu_accessed_recently">Обращение когда...</string>
+    <string name="drawer_menu_modified_nearby">Изменение рядом</string>
+    <string name="drawer_menu_metadata">Метаданные</string>
+
+    <string name="drawer_menu_account_short">Аккаунт</string>
+    <string name="drawer_menu_account_long">Ваш аккаунт</string>
+
+    <string name="drawer_menu_about">Информация</string>
+    <string name="drawer_menu_help">Справочник</string>
+    <string name="drawer_menu_settings">Настройки</string>
+
+    <string name="drawer_menu_backup_app_data">Резервирование данных ПО</string>
+    <string name="drawer_menu_restore_app_data">Восстановление данных ПО</string>
+
+    <string name="menu_add">Добавить новую</string>
+    <string name="menu_sort">Сортировать</string>
+    <string name="menu_style">Стиль</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_advanced_search">Расширенный поиск</string>
+    <string name="menu_clear_search_history">Очистить поисковик</string>
+    <string name="menu_clear_location_data">Очистить геолокации</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_metadata">Метаданные</string>
+    <string name="menu_show_map">Показать на карте</string>
+    <string name="menu_append_clipboard">Добавить из буфер обмена</string>
+    <string name="menu_import_files">Импорт файлов</string>
+    <string name="menu_export_files">Экспорт файлов</string>
+    <string name="menu_mirror_files">Зеркало файлов</string>
+
+    <string name="menu_sort_by_title">Сорт. по имени</string>
+    <string name="menu_sort_by_date">Сорт. по дате</string>
+
+    <string name="menu_toggle_title">Показать/Спрятать</string>
+    <string name="menu_markdown_view">Маркдаун/Просмотр</string>
+    <string name="menu_paste_calendar">Вставить из календарь</string>
+    <string name="menu_full_screen">Полноэкранный</string>
+    <string name="menu_clear_cache">Очистить кэш</string>
+    <string name="menu_export">Экспорт</string>
+    <string name="menu_print">Печатать</string>
+
+    <string name="menu_encrypt_decrypt">Кодировать/Декодировать</string>
+
+    <string name="menu_save_exit">Сохранить и выйти</string>
+    <string name="menu_save">Сохранять</string>
+    <string name="menu_revert">Возврат</string>
+    <string name="menu_share">Поделиться</string>
+
+    <string name="menu_edit_tools">Приборная панель</string>
+    <string name="menu_markdown_symbols">Маркдаун-символы</string>
+
+    <string name="menu_style_font_family">Тип шрифта</string>
+    <string name="menu_style_font_size">Размер шрифта</string>
+    <string name="menu_style_margin">Поле</string>
+    <string name="menu_style_theme">Тема</string>
+
+    <string name="label_title">Название</string>
+    <string name="label_content">Содержание</string>
+    <string name="label_share">Поделиться с</string>
+
+    <string name="status_manager_created">Менеджер создан</string>
+    <string name="status_initializing">Инициализация...</string>
+    <string name="status_opening">Открытие\u0020</string>
+    <string name="status_rescanning">Пересканирование...</string>
+    <string name="status_searching">Идёт поиск...</string>
+    <string name="status_sync_completed">Синхронизация завершена</string>
+    <string name="status_import_completed">Импорт завершен</string>
+    <string name="status_synchronized">Синхронизировано</string>
+    <string name="status_canceled">Отменено</string>
+
+    <string name="status_app_data_restoring">Восстановление данных приложения.  Пожалуйста, подождите...</string>
+    <string name="status_app_data_restored">Данные приложения восстановлены.  перезапустите приложение.</string>
+    <string name="status_app_data_backing_up">Резервирование данных приложения.  Пожалуйста, подождите...</string>
+    <string name="status_app_data_backup">Данные приложения зарезервированы.</string>
+
+    <string name="status_system_busy">Система занята.</string>
+
+    <string name="status_no_data">Нет данных.</string>
+    <string name="status_no_ocr_data">Нет OCR-данных.  Намёк: держите текст по центру.</string>
+    <string name="status_no_location_data">Без статуса.</string>
+    <string name="status_no_status">Без статуса.</string>
+    <string name="status_no_change">Без изменений.</string>
+    <string name="status_no_note">Заметка не найдена..</string>
+    <string name="status_empty">¯\\_(ツ)_/¯\u000AНет данных.</string>
+
+    <string name="status_more_items">и еще...</string>
+    <string name="status_imported_count">\u0020объект(ов)импортирован(о) из\u0020</string>
+    <string name="status_count">\u0020объект(ов)\u0020</string>
+    <string name="status_word_count">\u0020слов(о)</string>
+
+    <string name="status_modified_after">Изменение когда\u0020</string>
+    <string name="status_accessed_after">Обращение когда\u0020</string>
+    <string name="status_modified_nearby">Изменение рядом\u0020</string>
+
+    <string name="status_hit_count">кол-во:\u0020</string>
+    <string name="status_hit_in_title">в названии</string>
+    <string name="status_no_hit_found">не найдено</string>
+    <string name="status_no_search_conducted">Поиск не проводился</string>
+    <string name="status_no_go_back">Уже нету дальше</string>
+    <string name="status_no_go_forward">Уже нету раньше</string>
+    <string name="status_all_replaced">Все заменено.</string>
+
+    <string name="status_deleted_remotely">\u0020удалено.</string>
+    <string name="status_added_remotely">\u0020добавлено.</string>
+    <string name="status_updated_remotely">\u0020обновлено.</string>
+    <string name="status_locked">\u0020🔒</string>
+
+    <string name="status_items_deleted">\u0020объект(ов) удалин(о).</string>
+    <string name="status_items_updated">\u0020объект(ов) обновлен(о).</string>
+
+    <string name="status_exported">Экспортировано в\u0020</string>
+
+    <string name="status_back_to">Откатил\u0020</string>
+    <string name="status_changes_left">\u0020осталось перемен(а)</string>
+
+    <string name="status_encrypted">Кодирование завершено.</string>
+    <string name="status_decrypted">Декодирование завершено.</string>
+    <string name="status_encrypting">Выполняется кодирование...</string>
+    <string name="status_decrypting">Выполняется декодирование...</string>
+    <string name="status_encrypting_detailed">Выполняется кодирование, подождите...</string>
+    <string name="status_decrypting_detailed">Выполняется декодирование, подождите...</string>
+
+    <string name="status_reverted">\u0020возвращено.</string>
+
+    <string name="status_notes_exported">\u0020заметок экспортировано.</string>
+
+    <string name="status_auto_backup">Автоматическое резервирование</string>
+    <string name="status_auto_backup_in_progress">Резервирование выполняется</string>
+    <string name="status_auto_backup_completed">Резервирование завершено в</string>
+    <string name="status_auto_backup_disabled">Автоматическое резервирование отключено.</string>
+
+    <string name="status_search_history_cleared">История поиска очищена.</string>
+    <string name="status_location_data_cleared">Данные о местоположении очищены.</string>
+
+    <string name="status_storage_permission_granted">Доступ к хранилищу разрешен.  Пожалуйста, перезапустите приложение.</string>
+    <string name="status_location_permission_granted">Доступ к местоположению разрешен.  Пожалуйста, перезапустите приложение.</string>
+    <string name="status_camera_permission_granted">Доступ к камере разрешен.</string>
+
+    <string name="status_storage_permission_denied">Доступ к хранилищу отказан.  Разрешите доступ к хранилищу в настройках устройства и перезапустите neutriNote, чтобы избежать потери данных.</string>
+    <string name="status_location_permission_denied">Доступ к местоположению отказан. Функции на основе местоположения не будут работать независимо от настроек 'Осведомленность о местоположении' в приложении.</string>
+    <string name="status_camera_permission_denied">Доступ к камере отказан.  Функция сканирования штрихкодов теперь отключена.</string>
+
+    <string name="status_shortcut_added">Ярлык готов к использованию.</string>
+
+    <string name="status_restart_app">Пожалуйста, перезапустите neutriNote.</string>
+
+    <string name="widget_empty_view_text">Нет записей</string>
+    <string name="status_empty_clipboard">Буфер обмена пуст.</string>
+
+    <string name="scrapbook_write">Писать</string>
+    <string name="scrapbook_goto">Перейти к</string>
+    <string name="scrapbook_cancel">Отмена</string>
+    <string name="status_scrapbook_updated">\u0020обновлено.</string>
+
+    <string name="info_select_one">TНажмите кружки для выбора..</string>
+
+    <string name="info_cancel_encrypt">Небезопасно для кодирования.  Операция отменена.</string>
+    <string name="info_cancel_decrypt">Небезопасно для декодирования.  Операция отменена.</string>
+
+    <string name="info_drawing_best_viewing_font">Лучше всего смотрятся моноширинные шрифты (12 pt).</string>
+
+    <string name="info_local_images_only">Эта кнопка работает только с локальными изображениями (бета).</string>
+
+    <string name="info_cache_cleared">Кэш очищен.</string>
+
+    <string name="warn_markdown_cursor_position">Для правильного отрисовки уберите курсор от Маркдаун-символов.</string>
+    <string name="warn_no_selected_word">Пожалуйста, выберите несколько слов..</string>
+    <string name="warn_no_selected_expression">Пожалуйста, выберите выражение..</string>
+    <string name="warn_shortcut_disabled">Расширение текста в этом контексте отключено.</string>
+
+    <string name="error_database_setup">Ошибка установки базы данных.</string>
+    <string name="error_server">Ошибка сервера.</string>
+    <string name="error_network">Нет сети.</string>
+    <string name="error_json">JSON с ошибкой.</string>
+    <string name="error_resource_not_found">Запрошенный ресурс не найден.</string>
+    <string name="error_unexpected">Неожиданная ошибка..</string>
+    <string name="error_login">Логин не подключен. Статус </string>
+    <string name="error_empty_title">Пожалуйста, введите заголовок.</string>
+
+    <string name="error_app_data_not_found">Данные приложения не найдены.</string>
+    <string name="error_backup">Ошибка резервирования.</string>
+
+    <string name="error_invalid_local_storage_path">Неверный путь к локальному хранилищу.</string>
+    <string name="error_empty_local_repo_path">Пожалуйста, укажите путь к локальному репозиторию.</string>
+    <string name="error_empty_backup_uri">Пожалуйста, проверьте настройки резервирования.</string>
+    <string name="error_create_path">\u0020невозможно создать.</string>
+
+    <string name="error_invalid_title">IНеверное название.</string>
+    <string name="error_invalid_file_size">Неверный размер файла.</string>
+
+    <string name="error_no_writable_external_storage">Нет доступного для записи внешнего хранилища.</string>
+    <string name="error_no_readable_external_storage">Нет доступного для чтения внешнего хранилища.</string>
+
+    <string name="error_no_camera">Камера не найдена..</string>
+    <string name="error_no_calendar_app">Не найдено приложение календаря.</string>
+
+    <string name="error_no_shortcuts">Ярлык не установлен.  Как это сделать, см. документацию.</string>
+    <string name="error_undefined_shortcut">Ярлык не определен.</string>
+
+    <string name="error_undo">Уже все отменил.</string>
+    <string name="error_redo">Уже все повторил.</string>
+
+    <string name="error_invalid_filters">IНеверные фильтры.</string>
+    <string name="error_location_unknown">Локация неизвестна.</string>
+
+    <string name="error_missing_colordict">ColorDict не найден.</string>
+    <string name="error_calculation">Ошибка в расчетах.</string>
+
+    <string name="rationale_storage_read_permission">Далее вам нужно дать neutriNote разрешение для доступа к хранилищу устройства.  Разрешение нужно для полноценной работы neutriNote.</string>
+    <string name="rationale_storage_write_permission">\u0020</string>
+<string name="rationale_location_permission">Далее вам нужно дать neutriNote разрешение на доступ к вашему местоположению.  Разрешение имеет приоритет над настройками местоположения в neutriNote\u0027.</string>
+    <string name="rationale_camera_permission">Далее вам нужно дать neutriNote разрешение на доступ к вашей камере.</string>
+    <string name="rationale_coarse_location_permission">\u0020</string>
+    <string name="rationale_post_notifications_permission">Далее вам нужно дать neutriNote разрешение на публикацию уведомлений.  Разрешение нужно для полноценной работы neutriNote.</string>
+
+    <string name="admin_pref">Администрация</string>
+    <string name="pref_local_repo_path_title">Путь к локальному репозиторию</string>
+    <string name="pref_local_repo_path_summary">Укажите путь к локальному репозиторию.  Не изменяйте репозиторий напрямую (см. Справочник).  Намёк: Скрыт от других приложений в Android 11+.</string>
+    <string name="pref_local_repo_path_default">\u0020</string>
+
+    <string name="pref_incremental_backup_title">Авто-резерв / Зеркало</string>
+    <string name="pref_incremental_backup_summary">Укажите резервное / зеркальное хранилище.  Резервирование будет выполняться ежедневно в часы простоя.  Зеркало может использоваться для синхронизации (см. Справочник).  Намёк: Виден другим приложениям в Android 11+.</string>
+    <string name="pref_incremental_backup_default">фальш</string>
+
+    <string name="pref_auto_save_title">Автосохранение</string>
+    <string name="pref_auto_save_summary">Включить автосохранение.</string>
+    <string name="pref_auto_save_default">истина</string>
+
+    <string name="pref_location_aware_title">Осознание местоположения</string>
+    <string name="pref_location_aware_summary">Места хранения заметок.</string>
+    <string name="pref_location_aware_default">фальш</string>
+
+    <string name="ui_pref">Интерфейс пользователя</string>
+    <string name="pref_custom_filter_title">Подбор фильтра</string>
+    <string name="pref_custom_filter_summary">Укажите фильтры, разделенные точкой с запятой.  neutriNote запустится с первым фильтром.</string>
+    <string name="pref_custom_filter_default">все;с звездочкой;A;B;C;D;E;F;G;H;I;J;K;L;M;N;O;P;Q;R;S;T;U;V;W;X;Y;Z</string>
+
+    <string name="style_pref">Стилизация</string>
+    <string name="pref_theme_title">Тема</string>
+    <string name="pref_theme_summary">Укажите тему.</string>
+    <string name="pref_theme_default">системная</string>
+    <string-array name="pref_theme_names">
+        <item>День</item>
+        <item>Ночь</item>
+        <item>Вечер</item>
+        <item>Системная</item>
+    </string-array>
+    <string-array name="pref_theme_values">
+        <item>день</item>
+        <item>ночь</item>
+        <item>вечер</item>
+        <item>системная</item>
+    </string-array>
+
+    <string name="pref_lux_title">Атмосферное сияние (экспериментально)</string>
+    <string name="pref_lux_summary">Адаптация цветовой температуры к окружающему освещению (цвета в Маркдауне не меняются).</string>
+    <string name="pref_lux_default">фальш</string>
+
+    <string name="advanced_pref">Продвинутые</string>
+    <string name="pref_lazy_update_title">Ленивое обновление</string>
+    <string name="pref_lazy_update_summary">Объединять изменения перед коммитами для экономии батареи.</string>
+    <string name="pref_lazy_update_default">фальш</string>
+
+    <string name="pref_math_url_title">Математика</string>
+    <string name="pref_math_url_summary">Используйте личный разборщик, указав url сервера\u0027s (HTTPS).  Оставьте пустым, чтобы использовать MathJax (по умолчанию).</string>
+    <string name="pref_math_url_default">https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js</string>
+
+    <string name="pref_copy_attachments_to_repo_title">Добавить изображения</string>
+    <string name="pref_copy_attachments_to_repo_summary">Всегда добавлять вставленные изображения в локальный репозиторий.</string>
+    <string name="pref_copy_attachments_to_repo_default">фальш</string>
+
+    <string name="pref_show_hidden_title">Показать скрытое</string>
+    <string name="pref_show_hidden_summary">Показать скрытые заметки (любая заметка с приставкой \u223c в названии).</string>
+    <string name="pref_show_hidden_default">фальш</string>
+
+    <string name="support_pref">Поддержка</string>
+    <string name="pref_support_title">Есть проблема?</string>
+    <string name="pref_support_summary">Свяжитесь с разработчиком.</string>
+    <string name="pref_support_extensions">Расширения</string>
+
+    <string name="support_email_subject">neutriNote – Отчёт об ошибках</string>
+    <string name="support_email_body">Подробнее о проблеме:</string>
+
+    <string name="pref_play_store_link_title">Рекомендую neutriNote</string>
+    <string name="pref_play_store_link_summary">Поделитесь с теми, кому это приложение может быть полезно..</string>
+    <string name="pref_play_store_link_url">https://f-droid.org/packages/com.appmindlab.nano/</string>
+
+    <string name="pref_connector_title">Dropbox-соединитель</string>
+    <string name="pref_connector_summary">Расширение для 2-сторонней синхронизации Dropbox.</string>
+    <string name="pref_connector_url">market://details?id=com.appmindlab.connector</string>
+
+    <string name="pref_play_store_catalog_title">Дополнения</string>
+    <string name="pref_play_store_catalog_summary">Получить дополнения для Tasker, двустороннюю синхронизацию с Dropbox и т. д.</string>
+    <string name="pref_play_store_catalog_url">market://search?q=pub:AppML</string>
+
+    <string name="pref_product_news_link_title">Новости о продукте</string>
+    <string name="pref_product_news_link_summary">Анонсы и обновления.</string>
+    <string name="pref_product_news_link_url">https://mastodon.social/@neutrinote</string>
+
+    <string name="dialog_home_title">Несохранённые изменения.</string>
+    <string name="dialog_home_message">Сохранить сейчас?</string>
+    <string name="dialog_home_ok">Сохранять</string>
+    <string name="dialog_home_cancel">Выбросить</string>
+
+    <string name="dialog_save_title">Сохранять</string>
+    <string name="dialog_save_message">Как бы вы хотели сохранить?</string>
+    <string name="dialog_save_quit">Сохранить\u0020\u002d\u003e\u0020и Выйти</string>
+    <string name="dialog_save_edit">Сохранить\u0020\u002d\u003e\u0020и Редактировать</string>
+
+    <string name="dialog_revert_title">Возврат изменений</string>
+    <string name="dialog_revert_message">Возврат к предыдущей версии?</string>
+    <string name="dialog_revert_ok">Возврат</string>
+    <string name="dialog_revert_cancel">Не делать возврат</string>
+
+    <string name="dialog_reload_title">Обнаружено удаленное изменение</string>
+    <string name="dialog_reload_message">Хотите перезагрузить?</string>
+    <string name="dialog_reload_ok">Да</string>
+    <string name="dialog_reload_cancel">Нет</string>
+
+    <string name="dialog_font_family_title">Выберите тип шрифт</string>
+    <string name="dialog_font_family_message">Выберите один</string>
+    <string name="dialog_font_family_ok">Ok</string>
+    <string name="dialog_font_family_cancel">Отмена</string>
+
+    <string name="dialog_font_size_title">Выберите размер шрифта</string>
+    <string name="dialog_font_size_message">Выберите один</string>
+    <string name="dialog_font_size_ok">Ok</string>
+    <string name="dialog_font_size_cancel">Отмена</string>
+
+    <string name="dialog_margin_title">Выберите размер поля</string>
+    <string name="dialog_margin_message">Выберите один</string>
+    <string name="dialog_margin_ok">Ok</string>
+    <string name="dialog_margin_cancel">Отмена</string>
+
+    <string name="hint_search">Искать...</string>
+    <string name="hint_replace">Заменить на...</string>
+    <string name="hint_title">Название</string>
+    <string name="hint_content">Содержание</string>
+    <string name="hint_folder_name">Введите здесь имя папки</string>
+    <string name="hint_file_name">Введите имя файла здесь</string>
+    <string name="hint_share_to">Выберите заметку</string>
+    <string name="hint_funnel">🚀 Выберите заметку</string>
+
+    <string name="chip_funnel">🚀 Выберите заметку</string>
+    <string name="chip_local_find">🔍 Поиск</string>
+    <string name="hint_chip_local_find">🔍 Искать...</string>
+
+    <string name="dialog_sort_title">Сортировать по</string>
+    <string name="dialog_sort_message">Выберите метод сортировки списка..</string>
+    <string name="dialog_sort_ok">Сортировать</string>
+    <string name="dialog_sort_cancel">Отмена</string>
+
+    <string name="dialog_hits_navigation_title">Список совпадений</string>
+    <string name="dialog_hits_naviagtion_message">Выберите место::</string>
+    <string name="dialog_hits_navigation_ok">Перейти к</string>
+    <string name="dialog_hits_navigation_cancel">Отмена</string>
+    <string name="dialog_hits_navigation_neutral">Очистить поиск</string>
+
+    <string name="dialog_replace_all_title">Заменить все?</string>
+    <string name="dialog_replace_all_ok">Да</string>
+    <string name="dialog_replace_all_cancel">Нет</string>
+
+    <string name="dialog_duplicates_title">Найдена еще одна запись с таким же названием</string>
+    <string name="dialog_duplicates_message">Перезаписать?</string>
+    <string name="dialog_duplicates_ok">Перезаписать</string>
+    <string name="dialog_duplicates_neutral">Выбросить</string>
+    <string name="dialog_duplicates_cancel">Отмена</string>
+
+    <string name="dialog_boolean_search_title">Расширенный поиск</string>
+    <string name="dialog_boolean_search_message">Разделите каждый термин запятой</string>
+    <string name="dialog_boolean_search_ok">Все слова</string>
+    <string name="dialog_boolean_search_neutral">Любое слово</string>
+    <string name="dialog_boolean_search_cancel">Отмена</string>
+
+    <string-array name="sort_methods">
+        <item>Название</item>
+        <item>Дата</item>
+    </string-array>
+
+    <string name="dialog_directory_chooser_new_directory_title">Новое имя папки</string>
+    <string name="dialog_directory_chooser_new_directory_button">Добавить новую папку</string>
+    <string name="dialog_directory_chooser_ok">Подтвердить</string>
+    <string name="dialog_directory_chooser_cancel">Отмена</string>
+    <string name="dialog_directory_chooser_selected_folder">Выбрано:\u0020</string>
+
+    <string name="dialog_encrypt_decrypt_title">Кодирование/Декодирование</string>
+    <string name="dialog_encrypt_decrypt_message">Перепутать содержимое заметки (это не шифрование и не должно использоваться для защиты конфиденциальных данных).</string>
+    <string name="dialog_encrypt_decrypt_ok">Кодировать</string>
+    <string name="dialog_encrypt_decrypt_cancel">Отмена</string>
+    <string name="dialog_encrypt_decrypt_neutral">Декодировать</string>
+
+    <string name="dialog_share_to_title">Поделиться с</string>
+    <string name="dialog_share_to_message"></string>
+    <string name="dialog_share_to_ok">Продолжить</string>
+    <string name="dialog_share_to_cancel">Отмена</string>
+
+    <string name="dialog_funnel_title">🚀</string>
+    <string name="dialog_funnel_ok">Продолжить</string>
+    <string name="dialog_funnel_neutral">Вставить</string>
+    <string name="dialog_funnel_cancel">Отмена</string>
+
+    <string name="dialog_metadata_title">Редактировать метаданные</string>
+    <string name="dialog_metadata_message">Укажите метаданные (\u0022:\u0022 или символы или переносы строки будут пропущены).</string>
+    <string name="dialog_metadata_ok">Задать</string>
+    <string name="dialog_metadata_cancel">Отмена</string>
+
+    <string name="dialog_metadata_search_title">Фильтровать по метаданным</string>
+    <string name="dialog_metadata_search_message">Фильтровать заметки по метаданным</string>
+    <string name="dialog_metadata_search_ok">Фильтр</string>
+    <string name="dialog_metadata_search_neutral">Обзор</string>
+    <string name="dialog_metadata_search_cancel">Отмена</string>
+
+    <string name="dialog_custom_filters_title">Подбор фильтра</string>
+    <string name="dialog_custom_filters_message">Фильтровать заметки с помощью пользовательских фильтров</string>
+    <string name="dialog_custom_filters_ok">Фильтр</string>
+    <string name="dialog_custom_filters_cancel">Отмена</string>
+
+    <string name="dialog_export_title">Экспортировать как</string>
+    <string name="dialog_export_message">Выберите тип файла.</string>
+    <string name="dialog_export_ok">Экспорт</string>
+    <string name="dialog_export_cancel">Отмена</string>
+
+    <string name="dialog_sd_backup_title">Экспортировать заметки</string>
+    <string name="dialog_sd_backup_message">Экспортировать сюда?</string>
+    <string name="dialog_sd_backup_ok">Экспорт</string>
+    <string name="dialog_sd_backup_cancel">Отмена</string>
+
+    <string name="dialog_mirror_title">Заметки в зеркале</string>
+    <string name="dialog_mirror_message">Выберите зеркальное действие.</string>
+    <string name="dialog_mirror_ok">Нажать на зеркало</string>
+    <string name="dialog_mirror_neutral">Принудительная синхронизация</string>
+    <string name="dialog_mirror_cancel">Вытащить из зеркала</string>
+
+    <string name="dialog_about_title">О приложении</string>
+    <string name="dialog_about_ok">Ok</string>
+    <string name="dialog_usage_title">Использование</string>
+    <string name="dialog_usage_ok">Ok</string>
+
+    <string name="dialog_empty_local_repo_title">Установить место репозитория</string>
+    <string name="dialog_empty_local_repo_message">Создав локальный репозиторий, ваши заметки будут автоматически зеркально отображены в виде файлов.  Репозиторий также облегчит синхронизацию с P2P-провайдерами или облачными провайдерами.</string>
+    <string name="dialog_empty_local_repo_ok">Настроить</string>
+    <string name="dialog_empty_local_repo_cancel">Использовать по умолчанию</string>
+    <string name="dialog_empty_local_repo_neutral">Выйти</string>
+
+    <string name="dialog_unset_math_url_title">Математические формулы</string>
+    <string name="dialog_unset_math_url_message">Требуется доступ к сети при первой обработке математических формул.  Продолжить?</string>
+    <string name="dialog_unset_math_url_ok">Принять</string>
+    <string name="dialog_unset_math_url_cancel">Отказать</string>
+
+    <string name="dialog_show_map_title">Найти мои заметки</string>
+    <string name="dialog_show_map_message">Последние измененные местоположения</string>
+    <string name="dialog_show_map_ok">Готово</string>
+
+    <string name="dialog_show_clipboard_ok">Готово</string>
+    <string name="dialog_show_clipboard_paste">Вставить</string>
+
+    <string name="dialog_draw_title">Рисунок</string>
+    <string name="dialog_draw_message">\u0020</string>
+    <string name="dialog_draw_ok">Вставить</string>
+    <string name="dialog_draw_cancel">Выбросить</string>
+
+    <string name="dialog_canvas_stroke_ok">Задать</string>
+    <string name="dialog_canvas_stroke_cancel">Отмена</string>
+
+    <string name="dialog_add_shortcut_title">Добавить ярлык</string>
+    <string name="dialog_add_shortcut_hint">\u0020как ярлык для</string>
+    <string name="dialog_add_shortcut_ok">Задать</string>
+    <string name="dialog_add_shortcut_cancel">Отмена</string>
+
+    <string name="dialog_show_shortcuts_title">Ярлыки</string>
+    <string name="dialog_show_shortcuts_not_found">Не найдено</string>
+    <string name="dialog_show_shortcuts_ok">Ok</string>
+    <string name="dialog_show_shortcuts_neutral">Перейти к</string>
+
+    <string name="dialog_revision_summary_ok">Ok</string>
+
+    <string name="snack_bar_button_ok">Ok</string>
+    <string name="snack_bar_button_undo">Отменить</string>
+    <string name="snack_bar_button_done">Готово</string>
+    <string name="snack_bar_button_paste">Вставить</string>
+    <string name="snack_bar_button_copy">Копировать</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Отмена</string>
+
+    <string name="button_indent">\u21FE</string>
+    <string name="button_indent_description">Отступ</string>
+    <string name="button_unindent">\u21FD</string>
+    <string name="button_unindent_description">Убрать отступ</string>
+    <string name="button_hash">\u0023</string>
+    <string name="button_asterisk">\u002A</string>
+    <string name="button_grave_accent">\u0060</string>
+    <string name="button_quotation">\u0022</string>
+    <string name="button_quotation_description">Цитата</string>
+    <string name="button_plus">\u002B</string>
+    <string name="button_dash">\u002D</string>
+    <string name="button_dash_description">Минус</string>
+    <string name="button_equal">\u003D</string>
+    <string name="button_colon">\u003A</string>
+    <string name="button_colon_description">Двоеточие</string>
+    <string name="button_semicolon">\u003B</string>
+    <string name="button_semicolon_description">Точка с запятой</string>
+    <string name="button_vertical">\u007C</string>
+    <string name="button_vertical_description">Вертикальная полоса</string>
+    <string name="button_backslash">\u005C</string>
+    <string name="button_backslash_description">Обратная косая черта</string>
+    <string name="button_slash">\u002F</string>
+    <string name="button_slash_description">Косая черта</string>
+    <string name="button_bracket_left">\u0028</string>
+    <string name="button_bracket_left_description">Левая скобка</string>
+    <string name="button_bracket_right">\u0029</string>
+    <string name="button_bracket_right_description">Правая скобка</string>
+    <string name="button_square_bracket_left">\u005B</string>
+    <string name="button_square_bracket_left_description">Квадратная левая скобка</string>
+    <string name="button_square_bracket_right">\u005D</string>
+    <string name="button_square_bracket_right_description">Квадратная правая скобка</string>
+    <string name="button_curly_bracket_left">\u007B</string>
+    <string name="button_curly_bracket_left_description">Фигурная левая скобка</string>
+    <string name="button_curly_bracket_right">\u007D</string>
+    <string name="button_curly_bracket_right_description">Фигурная правая скобка</string>
+    <string name="button_bracket_less">\u003C</string>
+    <string name="button_bracket_greater">\u003E</string>
+    <string name="button_underscore">\u005F</string>
+    <string name="button_dollar">\u0024</string>
+    <string name="button_dollar_description">Доллар</string>
+    <string name="button_bang">\u0021</string>
+    <string name="button_bang_description">Восклицательный знак</string>
+    <string name="button_question">\u003F</string>
+    <string name="button_question_description">Вопросительный знак</string>
+    <string name="button_close">\uF057</string>
+    <string name="button_close_description">Закрыть</string>
+
+    <string name="button_save">\uF0C7</string>
+    <string name="button_save_description">Сохранять</string>
+    <string name="button_undo">\uF0E2</string>
+    <string name="button_undo_description">Отменить</string>
+    <string name="button_redo">\uF01E</string>
+    <string name="button_redo_description">Повторить</string>
+
+    <string name="button_markdown">\uF121</string>
+    <string name="button_markdown_description">Маркдаун-символы</string>
+
+    <string name="button_timestamp">\uF017</string>
+    <string name="button_timestamp_description">Вставить штамп времени</string>
+    <string name="button_datestamp">\uF073</string>
+    <string name="button_datestamp_description">Вставить штамп с датой</string>
+
+    <string name="button_locationstamp">\uF041</string>
+    <string name="button_locationstamp_description">Вставить штамп местоположения</string>
+
+    <string name="button_draw">\uF1FC</string>
+    <string name="button_draw_description">Рисунок</string>
+
+    <string name="button_settings">\uF55D</string>
+    <string name="button_settings_description">Настройки</string>
+
+    <string name="button_search">\uF002</string>
+    <string name="button_search_description">Поиск</string>
+    <string name="button_replace">\uF074</string>
+    <string name="button_replace_description">Заменить</string>
+    <string name="button_text_expand">\uF035</string>
+    <string name="button_text_expand_description">Развернуть текст</string>
+    <string name="button_next">\uF063</string>
+    <string name="button_next_description">Найти далее</string>
+
+    <string name="button_barcode">\uF02A</string>
+    <string name="button_barcode_description">Получить штрих-код</string>
+    <string name="button_image">\uF03E</string>
+    <string name="button_image_description">Вставить изображение</string>
+    <string name="button_ocr">\uF140</string>
+    <string name="button_ocr_description">OCR-сканер</string>
+
+    <string name="button_attach">\uF0C6</string>
+    <string name="button_attach_description">Прикрепить файл</string>
+
+    <string name="button_define">\uF02D</string>
+    <string name="button_define_description">Уточнить</string>
+    <string name="button_calculate">\uF1EC</string>
+    <string name="button_calculate_description">Рассчитать</string>
+    <string name="button_web_search">\uF0AC</string>
+    <string name="button_web_search_description">Веб-поиск</string>
+
+    <string name="button_top">\uF062</string>
+    <string name="button_top_description">Верх</string>
+    <string name="button_bottom">\uF063</string>
+    <string name="button_bottom_description">Вниз</string>
+
+    <string name="button_clear">\uF1F8</string>
+    <string name="button_clear_description">Очистить</string>
+
+    <string name="button_gallery">\uF87C</string>
+    <string name="button_gallery_description">Галерея</string>
+
+    <string name="button_camera">\uF083</string>
+    <string name="button_camera_description">Камера</string>
+
+    <string name="button_encrypt">\uF023</string>
+    <string name="button_encrypt_description">Зашифровать</string>
+
+    <string name="button_decrypt">\uF09C</string>
+    <string name="button_decrypt_description">Расшифровать</string>
+
+    <string name="message_undobar">Удален.</string>
+
+    <string name="message_ignore_case">Игнорировать регистр?</string>
+    <string name="message_glob">Шаблон UNIX (с учетом регистра)</string>
+
+    <string name="message_export_notes_folder">Экспортировать в\u0020</string>
+    <string name="message_import_notes_folder">Импортируйте заметки (.txt) из следующей папки:\n\n(намёк: существующие данные заметок будут перезаписаны)</string>
+
+    <string name="message_auto_backup_log">Последний авто-резерв:\u0020</string>
+    <string name="message_auto_backup_log_empty">- - -</string>
+
+    <string name="message_sync_log">Последняя синхронизация:\u0020</string>
+    <string name="message_sync_log_empty">- - -</string>
+
+    <string name="message_auto_mirror_log">Последнее авто-зеркало:\u0020</string>
+    <string name="message_auto_mirror_log_empty">- - -</string>
+
+    <string name="message_storage_usage">Использование памяти на устройстве (только данные):\u0020</string>
+
+    <string name="tile_sync">Сканировать репозиторий</string>
+    <string name="tile_add_note">Новая заметка</string>
+
+    <string name="word_count">W</string>
+    <string name="file_size">S</string>
+    <string name="line_number">L</string>
+
+    <string-array name="font_family_values">
+        <item>Roboto Condensed Light (легкий)</item>
+        <item>Roboto Mono Light (легкий)</item>
+        <item>Roboto Mono Regular (обычный)</item>
+        <item>Roboto Slab Light (легкий)</item>
+        <item>Roboto Slab Regular (обычный)</item>
+        <item>Roboto Slab Bold (жирный)</item>
+    </string-array>
+
+    <string-array name="margin_values">
+        <item>8</item>
+        <item>16</item>
+        <item>24</item>
+    </string-array>
+</resources>
