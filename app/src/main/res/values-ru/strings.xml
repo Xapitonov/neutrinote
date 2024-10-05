@@ -275,7 +275,7 @@
         <item>системная</item>
     </string-array>
 
-    <string name="pref_lux_title">Атмосферное сияние (экспериментально)</string>
+    <string name="pref_lux_title">Атмосферное сияние (пока пробуется)</string>
     <string name="pref_lux_summary">Адаптация цветовой температуры к окружающему освещению (цвета в Маркдауне не меняются).</string>
     <string name="pref_lux_default">фальш</string>
 
